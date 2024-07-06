@@ -56,16 +56,6 @@ const WorkExperience = ({ jobTitle, companyName, duration }) => {
   );
 };
 
-const WorkExperience = ({ jobTitle, companyName, duration }) => {
-  return (
-    <div className="work-experience">
-      <h3 className="job-title">{jobTitle}</h3>
-      <p className="company-name">{companyName}</p>
-      <p className="duration">{duration}</p>
-    </div>
-  );
-};
-
 const WorkExperienceList = () => {
   const experiences = [
     { jobTitle: 'AI and Data Analytics Intern', companyName: 'American Torch Tip', duration: 'May 2024 - August 2024' },
