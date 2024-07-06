@@ -17,4 +17,40 @@ const Profile = () => {
   );
 };
 
+const Skill = ({ name, level }) => {
+  return (
+    <div className="skill">
+      <h3 className="skill-name">{name}</h3>
+      <p className="skill-level">{level}</p>
+    </div>
+  );
+};
+
+const SkillsList = () => {
+  const skills = [
+    { name: 'JavaScript', level: 'Intermediate' },
+    { name: 'Python', level: 'Advanced' },
+    { name: 'CSS', level: 'Intermediate' },
+    { name: 'HTML', level: 'Advanced' },
+  ];
+
+  return (
+    <div className="skills-list">
+      <h2 className="skills-title">My Skills</h2>
+      {skills.map((skill, index) => (
+        <Skill key={index} name={skill.name} level={skill.level} />
+      ))}
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <div className="App">
+      <Profile />
+      <SkillsList />
+    </div>
+  );
+}
+
 export default Profile;
