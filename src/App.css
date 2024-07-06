@@ -69,3 +69,74 @@
   font-size: 1.2em;
   color: gray;
 }
+
+.work-experience-list {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.work-experience-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.work-experience {
+  background-color: white;
+  border: 2px solid navy;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.job-title {
+  font-size: 1.5em;
+  color: navy;
+}
+
+.company-name,
+.duration {
+  font-size: 1.2em;
+  color: gray;
+}
+
+.education-list {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.education-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.education {
+  background-color: white;
+  border: 2px solid navy;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.school-name {
+  font-size: 1.5em;
+  color: navy;
+}
+
+.degree,
+.major,
+.years {
+  font-size: 1.2em;
+  color: gray;
+}
